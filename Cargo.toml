@@ -1,0 +1,10 @@
+[workspace]
+resolver = "3"
+members  = ["app", "compute", "config", "domain", "shared", "modules/email"]
+
+[workspace.package]
+version      = "0.1.0"
+edition      = "2024"
+rust-version = "1.85"
+
+[workspace.dependencies]
