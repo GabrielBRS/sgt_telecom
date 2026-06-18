@@ -1,0 +1,9 @@
+[postgres]
+host                 = "192.168.15.200"
+port                 = 5432
+user                 = "sgt"
+database             = "sgt_telecom"
+max_connections      = 10
+connect_timeout_secs = 5
+ssl_mode             = "disable"    
+password             = "sgt_dev_2026"
