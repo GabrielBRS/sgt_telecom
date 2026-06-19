@@ -3,6 +3,8 @@ mod api;
 mod service;
 mod repository;
 mod handler;
+mod email_registry;
+pub use email_registry::registrar;
 
 pub use handler::error::EmailError;
 pub use state::{EmailState, montar_email_state};

@@ -8,3 +8,6 @@ domain = { path = "../../domain" }
 config = { path = "../../config" }
 shared = { path = "../../shared" }
 compute = { path = "../../compute" }
+
+[lib]
+path = "modules_registry.rs"   # usa o arquivo solto como raiz da lib
