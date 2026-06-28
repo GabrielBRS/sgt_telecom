@@ -10,5 +10,5 @@ path = "modules_registry.rs"
 [dependencies]
 shared = { path = "../shared" }
 email  = { path = "email" }
-# sms      = { path = "sms" }
-# whatsapp = { path = "whatsapp" }
+sms      = { path = "sms" }
+whatsapp = { path = "whatsapp" }

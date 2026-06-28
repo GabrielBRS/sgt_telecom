@@ -985,6 +985,8 @@ version = "0.1.0"
 dependencies = [
  "email",
  "shared",
+ "sms",
+ "whatsapp",
 ]
 
 [[package]]
@@ -1354,6 +1356,21 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8ed6a63f02c8539c91a8685a86f4099661ba3da017932f6ebbea6de3f0fa7c90"
 dependencies = [
  "serde",
+]
+
+[[package]]
+name = "sms"
+version = "0.1.0"
+dependencies = [
+ "async-trait",
+ "axum",
+ "chrono",
+ "config",
+ "domain",
+ "serde",
+ "shared",
+ "sqlx",
+ "tracing",
 ]
 
 [[package]]
@@ -2032,6 +2049,21 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "52f5ee44c96cf55f1b349600768e3ece3a8f26010c05265ab73f945bb1a2eb9d"
 dependencies = [
  "rustls-pki-types",
+]
+
+[[package]]
+name = "whatsapp"
+version = "0.1.0"
+dependencies = [
+ "async-trait",
+ "axum",
+ "chrono",
+ "config",
+ "domain",
+ "serde",
+ "shared",
+ "sqlx",
+ "tracing",
 ]
 
 [[package]]
